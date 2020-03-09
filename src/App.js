@@ -1,4 +1,6 @@
 import React from "react";
+//import favicon1 from "./images/facivon_v1.JPG";
+//import favicon2 from "./images/facivon_v1.JPG";
 
 function App() {
   return (
@@ -57,6 +59,7 @@ function App() {
         <li>
           <a href="#"> Steps: How this app page was developed </a>
           <ol>
+            <li>everything started at 09/03/31</li>
             <li>
               installed react app
               <ul>
@@ -66,14 +69,24 @@ function App() {
             <li>Created git repository</li>
             <li>Deployed react app to AWS Aplify</li>
             <li>
-              Created favicon
+              <span>favicon is a small icon visable in webrowser tab</span>
+              Created favicon &nbsp;
               <a href="https://favicon.io/favicon-generator/">
                 https://favicon.io/favicon-generator/
               </a>
+              <br></br>
+              <a href="https://www.codepile.net/pile/LmMv8dkG" target="_blank">
+                favicon html code snippet&nbsp;
+              </a>
+              <a href={require("./images/facivon_v1.JPG")} target="_blank">
+                &nbsp; facivon_v1
+              </a>
+              <a href={require("./images/facivon_v2.JPG")} target="_blank">
+                &nbsp; facivon_v2
+              </a>
+              <li></li>
             </li>
           </ol>
-          <p></p>
-          {/* //https://favicon.io/favicon-generator/ */}
         </li>
       </ul>
       <footer>
