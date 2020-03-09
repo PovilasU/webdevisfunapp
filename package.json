@@ -1,0 +1,29 @@
+{
+  "name": "webdevisfun_react_webpack_starter",
+  "version": "1.0.0",
+  "description": "Webdev is fun react app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PovilasU/webdevisfunapp.git"
+  },
+  "keywords": [
+    "react",
+    "app",
+    "from",
+    "scratch",
+    "webpack",
+    "webdev",
+    "is",
+    "fun"
+  ],
+  "author": "Povilas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PovilasU/webdevisfunapp/issues"
+  },
+  "homepage": "https://github.com/PovilasU/webdevisfunapp#readme"
+}
