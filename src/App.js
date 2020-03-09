@@ -54,6 +54,27 @@ function App() {
             </a>
           </li>
         </ul>
+        <li>
+          <a href="#"> Steps: How this app page was developed </a>
+          <ol>
+            <li>
+              installed react app
+              <ul>
+                <li>npx create-react-app</li>
+              </ul>
+            </li>
+            <li>Created git repository</li>
+            <li>Deployed react app to AWS Aplify</li>
+            <li>
+              Created favicon
+              <a href="https://favicon.io/favicon-generator/">
+                https://favicon.io/favicon-generator/
+              </a>
+            </li>
+          </ol>
+          <p></p>
+          {/* //https://favicon.io/favicon-generator/ */}
+        </li>
       </ul>
       <footer>
         <a
