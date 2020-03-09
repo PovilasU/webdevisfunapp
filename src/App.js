@@ -1,24 +1,72 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Web dev is fun</h1>
       </header>
+      <p>This is React App</p>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a
+            href="https://iseewavingwaterthroughmywindown.s3.amazonaws.com/index.html"
+            target="_blank"
+          >
+            I see waving water through the window
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://povilas-angularjs-calc.s3.amazonaws.com/index.html"
+            target="_blank"
+          >
+            Electricity price calc demo (Angular js 2019)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://povilas.s3-eu-west-1.amazonaws.com/index.html"
+            target="_blank"
+          >
+            Crypto currency website (03 2019)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://productmanangercrudr-20190405020141-hostingbucket-linux.s3.amazonaws.com/index.html"
+            target="_blank"
+          >
+            Products Manager Demo (CRUD app, ReactJs, LocalStorage 2019)
+          </a>
+        </li>
+        <ul>
+          <li>future projects todo</li>
+          <li>
+            <a href="" target="_blank">
+              travel Gallery
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              blog
+            </a>
+          </li>
+        </ul>
+      </ul>
+      <footer>
+        <a
+          href="https://www.linkedin.com/in/povilas-urbonas-0a6a53a4/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a href="https://github.com/PovilasU" target="_blank">
+          GitHub
+        </a>
+        <span>2020</span>
+      </footer>
     </div>
   );
 }
