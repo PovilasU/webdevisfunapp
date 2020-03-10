@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <img src={pic} alt="mypic" />
+        {/* <img src={pic} alt="mypic" /> */}
         <h1>Web Dev Is Fun React App</h1>
         <p>This is React App</p>
         <h2>Projects</h2>
@@ -133,6 +133,14 @@ class App extends Component {
                       {" "}
                       npm install --save-dev html-loader html-webpack-plugin
                       file-loader
+                    </code>
+                  </li>
+                  <li>
+                    <code>npm install babel-preset-es2015 --save-dev</code>
+                    installing css sass loaders
+                    <code>
+                      npm install sass-loader node-sass css-loader
+                      extract-text-webpack-plugin --save-dev
                     </code>
                   </li>
                 </li>
