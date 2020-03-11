@@ -143,6 +143,7 @@ class App extends Component {
                       extract-text-webpack-plugin --save-dev
                     </code>
                   </li>
+                  <li>added css loaders into webpack</li>
                 </li>
               </li>
             </ol>
