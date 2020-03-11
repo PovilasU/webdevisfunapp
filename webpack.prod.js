@@ -7,7 +7,7 @@ module.exports = merge(common, {
   mode: "production",
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "index_bundle.[hash].js"
+    filename: "[name].[hash].bundle.js"
   },
   plugins: [new CleanWebpackPlugin()]
 });

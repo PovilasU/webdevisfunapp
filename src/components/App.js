@@ -198,6 +198,15 @@ class App extends Component {
                     configuring Html-loader, File-loader, & Clean-webpack{" "}
                     <code>npm install --save-dev clean-webpack-plugin</code>
                   </li>
+                  <li>
+                    Adding navigation bar to test vendor js with importing
+                    bootstrap{" "}
+                  </li>
+                  <li>
+                    getting errors while testing menu bar. installing jquery and
+                    popper.js{" "}
+                    <code>npm install --save-dev jquery popper.js</code>
+                  </li>
                 </li>
               </li>
             </ol>

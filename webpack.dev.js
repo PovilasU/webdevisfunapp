@@ -6,6 +6,6 @@ module.exports = merge(common, {
   mode: "development",
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "index_bundle.js"
+    filename: "[name].bundle.js"
   }
 });
