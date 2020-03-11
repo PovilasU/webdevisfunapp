@@ -144,6 +144,22 @@ class App extends Component {
                     </code>
                   </li>
                   <li>added css loaders into webpack</li>
+                  <li>
+                    <strong>Day 3 (11/03/2020)</strong> still configuring
+                    webpack
+                  </li>
+                  <li>
+                    adding css loader to webpack also importing styles.css to
+                    indext.js{" "}
+                    <a href="https://github.com/PovilasU/webdevisfunapp/tree/7683bde0f332c13200b589eab87fa7c243560ed6">
+                      {" "}
+                      link to git commit
+                    </a>
+                  </li>
+                  <li>
+                    insaling bootstrap{" "}
+                    <code>npm install --save-dev bootstrap</code>
+                  </li>
                 </li>
               </li>
             </ol>
