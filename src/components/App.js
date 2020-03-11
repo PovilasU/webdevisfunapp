@@ -105,7 +105,12 @@ class App extends Component {
                   app is set up. This will take a bit of time, but it is better
                   todo it now than later :)
                 </li>
-                <li>todo setting up webpack...</li>
+                <li>
+                  todo setting up webpack....{" "}
+                  <a href="https://webpack.js.org/">
+                    link to webpack homepage.
+                  </a>
+                </li>
                 <li>
                   <strong>Day 2. (10/03/2020)</strong> To setup webpack took
                   some time. I recreated AWS amplify app, because it did not
@@ -165,6 +170,13 @@ class App extends Component {
                     <code>
                       npm install sass-loader node-sass webpack --save-dev
                     </code>
+                  </li>
+                  <li>using sass instead of css</li>
+                  <li>
+                    {" "}
+                    <a href="https://www.youtube.com/watch?v=qXRGKiHmtF8&list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8&index=6">
+                      Cache Busting and Plugins
+                    </a>
                   </li>
                 </li>
               </li>
