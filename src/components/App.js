@@ -207,6 +207,10 @@ class App extends Component {
                     popper.js{" "}
                     <code>npm install --save-dev jquery popper.js</code>
                   </li>
+                  <li>
+                    Minimazing css
+                    <code>npm install --save-dev mini-css-extract-plugin</code>
+                  </li>
                 </li>
               </li>
             </ol>
