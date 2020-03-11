@@ -185,6 +185,15 @@ class App extends Component {
                     updated package json start and build commands
                     <code></code>
                   </li>
+                  <li>webpack: Splitting Dev & Production</li>
+                  <li>
+                    installing html-loader{" "}
+                    <code>npm install --save-dev html-loader</code>
+                  </li>
+                  <li>
+                    installing file loader{" "}
+                    <code>npm install --save-dev file-loader</code>
+                  </li>
                 </li>
               </li>
             </ol>

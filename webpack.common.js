@@ -13,6 +13,21 @@ module.exports = {
         ]
       },
       {
+        test: /\.html$/i,
+        use: ["html-loader"]
+      },
+      {
+        test: /\.(svg|png|jpe?g|gif)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[name].[hash].[ext]",
+            outputPath: "imgs",
+            esModule: false
+          }
+        }
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
