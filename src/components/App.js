@@ -173,10 +173,17 @@ class App extends Component {
                   </li>
                   <li>using sass instead of css</li>
                   <li>
-                    {" "}
+                    Followed configuration from youtube webpack tutorial
                     <a href="https://www.youtube.com/watch?v=qXRGKiHmtF8&list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8&index=6">
                       Cache Busting and Plugins
                     </a>
+                  </li>
+                  <li>
+                    <code>npm install --save-dev webpack-merge</code>
+                  </li>
+                  <li>
+                    updated package json start and build commands
+                    <code></code>
                   </li>
                 </li>
               </li>
