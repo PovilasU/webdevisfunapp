@@ -157,8 +157,14 @@ class App extends Component {
                     </a>
                   </li>
                   <li>
-                    insaling bootstrap{" "}
+                    insalling bootstrap{" "}
                     <code>npm install --save-dev bootstrap</code>
+                  </li>
+                  <li>
+                    installing sass loader
+                    <code>
+                      npm install sass-loader node-sass webpack --save-dev
+                    </code>
                   </li>
                 </li>
               </li>
