@@ -3,6 +3,9 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin"); // installed via
 const common = require("./webpack.common");
 const merge = require("webpack-merge");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+var OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = merge(common, {
   mode: "production",
@@ -10,9 +13,24 @@ module.exports = merge(common, {
     path: path.join(__dirname, "/dist"),
     filename: "[name].[hash].bundle.js"
   },
+  optimization: {
+    minimizer: [new OptimizeCssAssetsPlugin(), new TerserPlugin()]
+  },
   plugins: [
     new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin({ filename: "[name].[hash].css" })
+    new MiniCssExtractPlugin({ filename: "[name].[hash].css" }),
+    new HtmlWebpackPlugin({
+      template: "./src/template.html",
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      }
+    })
   ],
   module: {
     rules: [

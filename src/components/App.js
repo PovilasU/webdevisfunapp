@@ -208,8 +208,18 @@ class App extends Component {
                     <code>npm install --save-dev jquery popper.js</code>
                   </li>
                   <li>
-                    Minimazing css
-                    <code>npm install --save-dev mini-css-extract-plugin</code>
+                    Minimazing css for production
+                    <code>
+                      npm install --save-dev optimize-css-assets-webpack-plugin
+                    </code>
+                  </li>
+                  <li>
+                    Minimazing js for production
+                    <code>
+                      {" "}
+                      inside webpack minimizer: [new OptimizeCssAssetsPlugin(),
+                      new TerserPlugin()]
+                    </code>
                   </li>
                 </li>
               </li>
