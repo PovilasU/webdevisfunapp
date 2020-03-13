@@ -4,8 +4,8 @@
   "description": "Webdev is fun react app ",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot --config webpack.dev.js",
-    "build": "webpack --mode production --config webpack.prod.js"
+    "start": "webpack-dev-server --mode development --open --hot --config webpack.dev.js --history-api-fallback",
+    "build": "webpack --mode production --config webpack.prod.js "
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,8 @@
   "homepage": "https://github.com/PovilasU/webdevisfunapp#readme",
   "dependencies": {
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
