@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./Header.js";
 
 // import pic from "./day2_audit1.JPG";
 
@@ -6,6 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Header></Header>
         {/* <img src={pic} alt="mypic" /> */}
         <h1>Web Dev Is Fun React App</h1>
         <p>This is React App</p>
@@ -248,6 +250,7 @@ class App extends Component {
                     Implementing navigation using react router{" "}
                     <code>npm install --save --react-router</code>
                   </li>
+                  <li>Created Header component with navigation bar</li>
                 </li>
               </li>
             </ol>
