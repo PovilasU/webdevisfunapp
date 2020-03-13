@@ -214,12 +214,39 @@ class App extends Component {
                     </code>
                   </li>
                   <li>
-                    Minimazing js for production
+                    Minimzing js for production
                     <code>
                       {" "}
                       inside webpack minimizer: [new OptimizeCssAssetsPlugin(),
                       new TerserPlugin()]
                     </code>
+                  </li>
+                  <li>
+                    configuring webpack for Minimizing html, removing spaces,
+                    comments and so on ...
+                  </li>
+                  <li>Initial webpack configuration is DONE :)!</li>
+                  <li>
+                    Todo: start use lazyload for react components, this will
+                    give more speed for app
+                  </li>
+                  <li>
+                    <b>Day 4 (12/03/2020) nothing</b>
+                  </li>
+                  <li>
+                    <b>Day 5 (13/03/2020)</b>
+                  </li>
+                  <li>
+                    Starting to creating page for image gallery "Solar system"
+                    and using B-lazy js libary
+                  </li>
+                  <li>
+                    creating new page for the gallery, removing old nav bar and
+                    creating new one from scratch
+                  </li>
+                  <li>
+                    Implementing navigation using react router{" "}
+                    <code>npm install --save --react-router</code>
                   </li>
                 </li>
               </li>
