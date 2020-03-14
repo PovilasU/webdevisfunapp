@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 body {
-  background-color: rgb(241, 227, 227);
+  // background-color: rgb(241, 227, 227);
+  background-color: rgb(12, 9, 54);
 }
 
 nav {
@@ -44,4 +45,8 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+.gallery-planets {
+  color: #ffffff;
 }
