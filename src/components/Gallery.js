@@ -18,8 +18,9 @@ import Makemake from "../img/planets/Makemake_dwarf_planet.jpg";
 import Eris from "../img/planets/eris_dwarf_planet.jpeg";
 
 export default Gallery => {
+  document.body.style.backgroundColor = "#000000";
   return (
-    <div>
+    <div className="gallery-planets">
       <h1>Solar System</h1>
       <h2></h2>
       <p>Technologies used:</p>
